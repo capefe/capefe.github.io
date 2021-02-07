@@ -104,7 +104,7 @@ new CopyWebpackPlugin([
 
 **看看官方怎么说的**
 
-![图片](https://agroup-bos-bj.cdn.bcebos.com/bj-c9ad4a223e064eaf86154e63fd8a907aabaa5fa9)
+![图片](https://i.ibb.co/kDK5Kpv/bj-c9ad4a223e064eaf86154e63fd8a907aabaa5fa9.png)
 
 大概的意思如下：
 Google Chrome 当前 FTP 的实现不支持加密连接（FTPS），也没有代理。 FTP 在浏览器中的使用率非常低，以致无法再投资于改进现有的 FTP 客户端。此外，所有受影响的平台上都提供了功能更强大的 FTP 客户端。 Google Chrome 72+删除了对通过 FTP 提取文档子资源和呈现顶级 FTP 资源的支持。当前，导航到 FTP URL 会导致显示目录列表或下载，具体取决于资源的类型。 Google Chrome 74+中的一个错误导致放弃了对通过 HTTP 代理访问 FTP URL 的支持。对 FTP 的代理支持已在 Google Chrome 76 中完全删除。 Google Chrome 的 FTP 实施的其余功能仅限于显示目录列表或通过未加密的连接下载资源。我们想弃用并删除此剩余功能，而不是维护不安全的 FTP 实现。
